@@ -4,6 +4,9 @@ export default class ClassList extends Component {
   constructor() {
     super()
     
+    this.state = {
+      students: []
+    };
   }
 
   render() {
